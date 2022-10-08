@@ -27,6 +27,6 @@ export default defineConfig({
       }
     ],
   },
-  base: '/'
+  base: '/docss/'
 })
 
