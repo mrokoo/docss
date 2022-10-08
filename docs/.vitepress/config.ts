@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "测试标题",
-  description: "这是一个测试",
+  title: "docss",
+  description: "docss 这是一个测试",
   themeConfig: {
     nav: [
       { text: 'Guide', link: '/guide' },
