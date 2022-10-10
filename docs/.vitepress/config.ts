@@ -1,18 +1,17 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "docss",
-  description: "docss 这是一个测试",
+  title: "Mrokooの知识库",
+  description: "mrokoo note ",
   themeConfig: {
     nav: [
-      { text: 'Guide', link: '/guide' },
-      { text: 'gg', link: '/gudf' },
+      { text: '文档', link: '/doc' },
+      { text: '笔记', link: '/rnote' },
       {
         text: 'Dropdown Menu',
         items: [
           { text: 'Item A', link: '/item-1' },
           { text: 'Item B', link: '/item-2' },
-
           { text: 'Item C', link: '/item-3' }
         ]
       }
@@ -28,6 +27,6 @@ export default defineConfig({
       }
     ],
   },
-  base: '/docss/'
+  base: '/note/'
 })
 
