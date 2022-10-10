@@ -27,7 +27,12 @@ export default defineConfig({
       {
         text: '笔记',
         items: [
-          { text: 'Unix', link: '/Unix' },
+          { text: 'Unix', items: [
+            {
+              text: "高速缓冲",
+              link: '/Unix/数据缓冲区（高速缓冲）'
+            }
+          ] },
           { text: 'Getting Started', link: '/gettingStart' },
         ]
       }
