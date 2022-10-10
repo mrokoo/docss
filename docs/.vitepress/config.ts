@@ -7,22 +7,28 @@ export default defineConfig({
     nav: [
       { text: '文档', link: '/doc' },
       { text: '笔记', link: '/rnote' },
-      {
-        text: 'Dropdown Menu',
-        items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
-        ]
-      }
+      // {
+      //   text: 'Dropdown Menu',
+      //   items: [
+      //     { text: 'Item A', link: '/item-1' },
+      //     { text: 'Item B', link: '/item-2' },
+      //     { text: 'Item C', link: '/item-3' }
+      //   ]
+      // }
     ],
     sidebar: [
       {
-        text: 'Guide',
+        text: '文档',
         items: [
-          { text: 'Introduction', link: '/introduction' },
+          { text: 'obsidian-SeSeImage', link: '/seseimage' },
           { text: 'Getting Started', link: '/gettingStart' },
-          {text: 'test', items: [{text: "df", link: "/test1/ddd"}]}
+        ]
+      },
+      {
+        text: '笔记',
+        items: [
+          { text: 'Unix', link: '/Unix' },
+          { text: 'Getting Started', link: '/gettingStart' },
         ]
       }
     ],
